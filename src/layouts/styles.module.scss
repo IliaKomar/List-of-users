@@ -1,0 +1,10 @@
+.wrapper {
+  position: relative;
+  background: linear-gradient(45deg, #f5f7fa, #c3cfe2);
+  height: auto;
+  min-height: 100vh;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,16 @@
+.content, .loadingContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 30px;
+}
+@media (max-width: 1400px) {
+  .content, .loadingContent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 960px) {
+  .content, .loadingContent {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

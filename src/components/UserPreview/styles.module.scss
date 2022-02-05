@@ -1,0 +1,42 @@
+.wrapper {
+  width: auto;
+  background-color: rgb(251, 255, 255);
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+  border: 1px solid transparent;
+  transition: border 100ms ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transition: border 300ms ease-in-out;
+    border: 1px solid rgb(95, 95, 95);
+  }
+}
+.content {
+  display: flex;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+.link {
+  outline: none;
+  text-decoration: none;
+  color: rgb(16, 168, 168);
+  margin-left: 5px;
+  border-radius: 6px;
+  padding: 1px 3px;
+  background-color: transparent;
+  transition: color 100ms ease-in-out, background-color 100ms ease-in-out;
+
+  &:hover {
+    transition: all 200ms ease-in-out;
+    background-color: rgb(16, 168, 168);
+    color: white;
+  }
+}

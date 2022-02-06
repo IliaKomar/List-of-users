@@ -22,20 +22,20 @@ const UserInformation = () => {
   };
 
   return (
-    <>
+    <div className={styles.wrapper}>
       {isLoadedUser ? (
         <div>
           {
             <div className={styles.buttonBackWrap} onClick={handleClickGoBack}>
-              <div>Go back</div>
+              <div> {'<--'} Go back</div>
             </div>
           }
           <UserInfoBlock user={user} />
         </div>
       ) : (
-        <div className={styles.loading}>Loading...</div>
+          <div className={styles.loading}>Loading...</div>
       )}
-    </>
+    </div>
   );
 };
 

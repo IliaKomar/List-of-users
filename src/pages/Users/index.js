@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
-import UserPreviewBlock from '../../components/UserPreview';
-import LoadingUserBlock from '../../components/LoadingUsers';
+import UserPreview from '../../components/UserPreview';
+import LoadingUser from '../../components/LoadingUsers';
 import PaginationButtons from '../../components/PaginationButtons';
 
 import { useSelector, useDispatch } from 'react-redux';
@@ -24,7 +24,7 @@ const Users = () => {
         <div className={styles.content}>
           {
             users.map((user) => (
-              <UserPreviewBlock
+              <UserPreview
                 key={user.id}
                 login={user.login}
                 avatarUrl={user.avatar_url}
@@ -38,7 +38,7 @@ const Users = () => {
           {
             Array(12)
               .fill(0)
-              .map((_, index) => <LoadingUserBlock key={index} />)
+              .map((_, index) => <LoadingUser key={index} />)
           }
         </div>
       )}

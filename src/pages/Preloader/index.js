@@ -2,13 +2,15 @@ import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './styles.module.scss';
 
+const PRELOADER_TIME = 2000;
+
 const Preloader = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
     setTimeout(() => {
       navigate('/users')
-    }, 2000)
+    }, PRELOADER_TIME)
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
   

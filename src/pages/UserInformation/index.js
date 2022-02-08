@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from "react-redux";
 import { useParams, useNavigate } from "react-router-dom";
-import UserInfoBlock from '../../components/UserInfo';
+import UserInfo from '../../components/UserInfo';
 import { getUserInfo } from "../../store/actionCreators/getUserInfo";
 
 import styles from './styles.module.scss';
@@ -30,7 +30,7 @@ const UserInformation = () => {
               <div> {'<--'} Go back</div>
             </div>
           }
-          <UserInfoBlock user={user} />
+          <UserInfo user={user} />
         </div>
       ) : (
           <div className={styles.loading}>Loading...</div>

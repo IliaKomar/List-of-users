@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 import styles from './styles.module.scss';
 
-const UserPreviewBlock = ({ login, avatarUrl, htmlUrl }) => {
+const UserPreview = ({ login, avatarUrl, htmlUrl }) => {
     const navigate = useNavigate();
     const handleBlockClick = () => {
         navigate(`/users/${login}`)
@@ -37,10 +37,10 @@ const UserPreviewBlock = ({ login, avatarUrl, htmlUrl }) => {
     );
 };
 
-UserPreviewBlock.propTypes = {
+UserPreview.propTypes = {
     login: PropTypes.string,
     avatarUrl: PropTypes.string,
     htmlUrl: PropTypes.string
 };
 
-export default UserPreviewBlock;
+export default UserPreview;

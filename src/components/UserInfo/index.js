@@ -6,7 +6,7 @@ import styles from "./styles.module.scss";
 
 const UNKNOWN_FIElD = "Unknown field";
 
-const UserInfoBlock = ({ user }) => {
+const UserInfo = ({ user }) => {
   return (
     <div className={styles.wrapper}>
       <img
@@ -72,4 +72,4 @@ const UserInfoBlock = ({ user }) => {
   );
 };
 
-export default UserInfoBlock;
+export default UserInfo;

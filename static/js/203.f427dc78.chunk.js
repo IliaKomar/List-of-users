@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkusers_list=self.webpackChunkusers_list||[]).push([[203],{3203:function(e,s,u){u.r(s),u.d(s,{default:function(){return a}});var t=u(2791),r=u(6871),n="styles_preloader__w0Jza",i=u(184),a=function(){var e=(0,r.s0)();return(0,t.useEffect)((function(){setTimeout((function(){e("/users")}),2e3)}),[]),(0,i.jsx)("div",{className:n,children:"Hi! We are glad to see you here"})}}}]);
+//# sourceMappingURL=203.f427dc78.chunk.js.map

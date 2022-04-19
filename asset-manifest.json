@@ -1,13 +1,27 @@
 {
   "files": {
-    "main.css": "/List-of-users/static/css/main.32d402c5.css",
-    "main.js": "/List-of-users/static/js/main.835ce41e.js",
+    "main.css": "/List-of-users/static/css/main.6e376c42.css",
+    "main.js": "/List-of-users/static/js/main.fc0cebb2.js",
+    "static/css/203.03daf68c.chunk.css": "/List-of-users/static/css/203.03daf68c.chunk.css",
+    "static/js/203.f427dc78.chunk.js": "/List-of-users/static/js/203.f427dc78.chunk.js",
+    "static/css/810.d18cb73d.chunk.css": "/List-of-users/static/css/810.d18cb73d.chunk.css",
+    "static/js/810.52f81fec.chunk.js": "/List-of-users/static/js/810.52f81fec.chunk.js",
+    "static/css/801.2c6df2fc.chunk.css": "/List-of-users/static/css/801.2c6df2fc.chunk.css",
+    "static/js/801.4784d91c.chunk.js": "/List-of-users/static/js/801.4784d91c.chunk.js",
+    "static/js/774.996b05f5.chunk.js": "/List-of-users/static/js/774.996b05f5.chunk.js",
     "index.html": "/List-of-users/index.html",
-    "main.32d402c5.css.map": "/List-of-users/static/css/main.32d402c5.css.map",
-    "main.835ce41e.js.map": "/List-of-users/static/js/main.835ce41e.js.map"
+    "main.6e376c42.css.map": "/List-of-users/static/css/main.6e376c42.css.map",
+    "main.fc0cebb2.js.map": "/List-of-users/static/js/main.fc0cebb2.js.map",
+    "203.03daf68c.chunk.css.map": "/List-of-users/static/css/203.03daf68c.chunk.css.map",
+    "203.f427dc78.chunk.js.map": "/List-of-users/static/js/203.f427dc78.chunk.js.map",
+    "810.d18cb73d.chunk.css.map": "/List-of-users/static/css/810.d18cb73d.chunk.css.map",
+    "810.52f81fec.chunk.js.map": "/List-of-users/static/js/810.52f81fec.chunk.js.map",
+    "801.2c6df2fc.chunk.css.map": "/List-of-users/static/css/801.2c6df2fc.chunk.css.map",
+    "801.4784d91c.chunk.js.map": "/List-of-users/static/js/801.4784d91c.chunk.js.map",
+    "774.996b05f5.chunk.js.map": "/List-of-users/static/js/774.996b05f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32d402c5.css",
-    "static/js/main.835ce41e.js"
+    "static/css/main.6e376c42.css",
+    "static/js/main.fc0cebb2.js"
   ]
 }
